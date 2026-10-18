@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ec77d30-89c0-4edd-9abc-2cbb9e456a1a" name="Changes" comment="Adding calculator class and unit test">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ec/epn/edu/CalculatorParametersTest.java" afterDir="false" />
+    <list default="true" id="8ec77d30-89c0-4edd-9abc-2cbb9e456a1a" name="Changes" comment="supporting parameters unit test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/epn/edu/CalculatorExecute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/CalculatorExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GR04_1BP3_622_26B-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/GR04_1BP3_622_26B-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ec/epn/edu/CalculatorExecute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/epn/edu/CalculatorExecute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2026-10-17T18-06-30_871.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2026-10-17T18-10-05_248.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.epn.edu.CalculatorParametersTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.epn.edu.CalculatorParametersTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.epn.edu.CalculatorTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ec.epn.edu.CalculatorTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.epn.edu.CalculatorParametersTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.epn.edu.CalculatorParametersTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.epn.edu.CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.epn.edu.CalculatorTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,32 +30,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SabinaZabala"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SabinaZabala&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SabinaZabala/GR04_1BP3_622_26B.git",
-    "accountId": "d2e08afa-763f-410f-874c-8cb09f70070e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SabinaZabala/GR04_1BP3_622_26B.git&quot;,
+    &quot;accountId&quot;: &quot;d2e08afa-763f-410f-874c-8cb09f70070e&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3KpZSjcyo6Ki5zogOF4Mi7hnWKu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,7 +63,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CalculatorExecute.executor": "Run",
+    "JUnit.CalculatorParametersTest.executor": "Run",
     "JUnit.CalculatorTest.executor": "Run",
+    "Maven.GR04_1BP3_622_26B [clean].executor": "Run",
+    "Maven.GR04_1BP3_622_26B [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.GR04_1BP3_622_26B [package].executor": "Run",
+    "Maven.GR04_1BP3_622_26B [test].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -79,7 +91,20 @@
       <recent name="ec.epn.edu" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorParametersTest">
+  <component name="RunManager" selected="Application.CalculatorExecute">
+    <configuration name="CalculatorExecute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ec.epn.edu.CalculatorExecute" />
+      <module name="GR04_1BP3_622_26B" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.epn.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculatorParametersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GR04_1BP3_622_26B" />
       <extension name="coverage">
@@ -112,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatorExecute" />
         <item itemvalue="JUnit.CalculatorParametersTest" />
         <item itemvalue="JUnit.CalculatorTest" />
       </list>
@@ -140,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792262158220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="supporting parameters unit test">
+      <option name="closed" value="true" />
+      <created>1792262917577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792262917577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,7 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding calculator class and unit test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding calculator class and unit test" />
+    <MESSAGE value="supporting parameters unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="supporting parameters unit test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
